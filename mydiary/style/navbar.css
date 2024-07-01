@@ -1,0 +1,35 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.custom-bg {
+    background-color: #C7B7A3; 
+}
+
+    .navbar {
+    padding: 1rem; /* Padding for more space */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Larger font size for brand */
+    font-weight: bold; /* Bold font weight for brand */
+}
+
+.form-control {
+    width: 250px; /* Width of the search input */
+}
+
+.btn-outline-success {
+    background-color: white;
+    margin-left: 10px; /* Space between input and button */
+}
+
+.btn-outline-danger {
+    background-color: white;
+    margin-left: 10px; /* Space between button and logout link */
+}
+
+
+
+
+

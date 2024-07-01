@@ -1,0 +1,145 @@
+
+/* ============Diary Topic========== */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dairy_topic{
+    width:100%;
+    padding:15px;
+}
+.dairy_topic .diary_topic_row{
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.dairy_topic .diary_topic_row .toic_add{
+    align-items:center;
+}
+.dairy_topic .diary_topic_row .toic_add input{
+    width:100%;
+    padding:10px 20px;
+    font-size:18px;
+    outline: none;
+    border: none;
+    border-bottom:2px solid #ccc;
+}
+.dairy_topic .diary_topic_row .toic_add button{
+    cursor: pointer;
+    margin:0px 5px;
+    padding:10px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background-color:rgb(144, 243, 144);
+    box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+}
+.dairy_topic .diary_display{
+    margin-top:25px;
+}
+.dairy_topic .diary_display h2{
+    text-align:center;
+    text-transform:uppercase;
+}
+.dairy_topic .diary_display .topic_display{
+    margin-top:25px;
+}
+.dairy_topic .diary_display .topic_display .topic_body{
+    width:100%;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+    padding:10px 20px;
+    margin-top:5px;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.dairy_topic .diary_display .topic_display .topic_body p{
+    font-size:18px;
+    font-weight:bold;
+    text-transform:capitalize;
+}
+.dairy_topic .diary_display .topic_display .topic_body ul{
+    justify-content:space-around;
+    align-items: center;
+}
+.dairy_topic .diary_display .topic_display .topic_body ul li{
+    margin:0px 10px;
+}
+.dairy_topic .diary_display .topic_display .topic_body ul li .fa-edit{
+    color:rgb(134, 24, 238);
+    font-size:20px;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+    padding:10px;
+    border-radius:50%;
+}
+.dairy_topic .diary_display .topic_display .topic_body ul li .fa-trash-alt{
+    color:red;
+    font-size:20px;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+    padding:10px;
+    border-radius:50%;
+}
+/* =========X==Diary Topic==X======= */
+/* ============Containt============ */
+.containt_diary{
+    width:100%;
+    padding:0px 15px;
+}
+.containt_diary .top_bar {
+    margin-top:25px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.containt_diary .top_bar a .fa-arrow-left{
+    font-size:20px;
+    margin-right: 5px;
+}
+.containt_diary .top_bar h1{
+    font-size:25px;
+    text-transform:uppercase;
+    text-align: center;
+}
+.containt_diary .top_bar button{
+    cursor: pointer;
+    padding:10px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    background-color:rgb(144, 243, 144);
+    box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+}
+.containt_diary .container_dayri{
+    margin-top:25px;
+}
+.containt_diary .upadate p{
+    margin-top:10px;
+    text-transform: uppercase;
+    font-weight:bold;
+    text-align:center;
+}
+.containt_diary .container_dayri textarea{
+    width:100%;
+    height:100vh;
+    outline: none;
+    border: none;
+    padding:30px;
+    font-size:18px;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+}
+/* =========X==Containt==X========= */
+
+/* =========ResponsiveNess===== */
+@media(max-width:500px){
+    .containt_diary .top_bar h1{
+        font-size:20px;
+        margin-right: 5px;
+    }
+    .containt_diary .container_dayri textarea{
+        font-size:16px;
+    }
+    .containt_diary .upadate p{
+        font-size:14px;
+    }
+}
